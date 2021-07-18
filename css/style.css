@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:url(image/london.jpg) no-repeat center fixed ;
+    background-size: cover;
+}
+
+.conatiner{
+    /* border: 5px solid black; */
+    color:white;
+    position: absolute;
+    top:35%;
+    left:40%;
+}
+
+.conatiner h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px;
+}
+
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    border-bottom: 2px solid purple ;
+    margin: 22px 0px;
+    font-weight: bold;
+
+}
+.box input{
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.btn{
+    cursor: pointer;
+    outline:none;
+     margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border:2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+}
+
+.btn:hover{
+    background: white;
+    color:purple;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+}
